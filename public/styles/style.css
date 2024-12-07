@@ -24,9 +24,14 @@ body{
 }
 
 .weather form{
+    display: flex;
+    align-items: center;
+    gap: 10px;
     margin: 10px;
 }
 #inputUser{
+    text-align: center;
+    height: 25px;
     border-radius: 20px;
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
@@ -34,11 +39,17 @@ body{
     -o-border-radius: 20px;
 }
 button{
-    border-radius: 10px;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    -ms-border-radius: 10px;
-    -o-border-radius: 10px;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+}
+
+button img{
+    border-style: none;
+    width: 20px;
+    height: 20px;
 }
 button:hover{
     background-color: #87CEEB;
